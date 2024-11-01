@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alostoura</title>
+    <link rel="icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mada:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <a href="tel:+201234567890" class="contact-link">01234567890</a>
+
+        <div class="social">
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <!-- nav -->
+
+    <nav class="flex flex-a-center flex-j-between">
+        <a href="#" class="logo">
+            <img src="imgs/logo.png" alt="">
+        </a>
+
+        <button class="nav-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-son flex flex-a-center flex-j-between">
+            <button class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="links flex gap-20">
+                <li>
+                    <a href="#" class="tap-btn"> <i class="fa-solid fa-house"></i> الرئيسية</a>
+                </li>
+                <li>
+                    <a href="#" class="tap-btn"><i class="fa-solid fa-person-circle-question"></i> من نحن؟</a>
+                </li>
+                <li>
+                    <!-- <button class="tap-btn"> <i class="fa-solid fa-arrow-up-right-dots"></i> خدماتنــا</button> -->
+                    <a href="#" class="tap-btn"> <i class="fa-solid fa-arrow-up-right-dots"></i> خدماتنــا</a>
+                </li>
+                <li>
+                    <a href="#" class="tap-btn"><i class="fa-solid fa-briefcase"></i> سابقة أعمالنا</a>
+                </li>
+                <!-- <li>
+                    <a href="#" class="tap-btn"><i class="fa-solid fa-briefcase"></i> آراء العملاء</a>
+                </li> -->
+            </ul>
+            <div class="btns">
+                <a href="#" class="tap-btn request-btn">اتصل بنا</a>
+                <a href="#" class="tap-btn request-btn">اطلب الخدمة</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider -->
+
+    <section class="slider-container">
+        <!-- 
+                    h-100 make img height 100vh ,
+                    you can delete it to leave image with its normal height 
+                -->
+        <div class="slider ">
+            <!-- loop here -->
+            <div class="slide">
+                <img src="imgs/slide-1.jpg">
+                <div class="slide-content">
+                    <div class="child">
+                        <h1>
+                            نحو مستقبل رقمي
+                        </h1>
+                        <p>
+                            نبتكر الحلول البرمجية الأكثر ذكاءً وتفردًا
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="imgs/slide-2.jpg">
+                <div class="slide-content">
+                    <div class="child">
+                        <h1>
+                            شريكك في التحول
+                        </h1>
+                        <p>
+                            تحويل الأفكار إلى حلول رقمية متطورة
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="imgs/slide-3.jpg">
+                <div class="slide-content">
+                    <div class="child">
+                        <h1>
+                            نصمم ونطور
+                        </h1>
+                        <p>
+                            لنقدم لك تجربة رقمية غير مسبوقة
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="imgs/slide-4.jpg">
+                <div class="slide-content">
+                    <div class="child">
+                        <h1>
+                            نحو عصر جديد من التكنولوجيا
+                        </h1>
+                        <p>
+                            حيث تلتقي الكفاءة مع الإبداع
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- btns -->
+        <div class="slider-controls">
+            <button class="slider-prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="slider-next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about">
+        <h2 class="section-title">من نحـــن ؟</h2>
+        <div class="about-header">
+            <div class="title-box">
+                <p>
+                    <span>نحن شركة متخصصة في تقديم الحلول البرمجية المبتكرة</span>
+                    نسعى جاهدين في تحويل أفكارنا إلى واقع رقمي متميز
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    <span>بفضل فريقنا من الخبراء المبدعين</span>
+                    نؤمن بأن كل فكرة تستحق التنفيذ
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    <span>لذا نركز على تقديم حلول مخصصة</span>
+                    تتناسب مع احتياجاتنا
+                    الفريدة، من خلال الجمع بين التقنية الحديثة والرؤية الابتكارية.
+                </p>
+            </div>
+        </div>
+
+        <div class="about-child">
+            <div class="box">
+                <div class="img-con">
+                    <img src="imgs/vision.png" alt="">
+                </div>
+                <h3>رؤيتنا</h3>
+                <p>
+                    تتمثل في خلق مستقبل رقمي يضيف قيمة حقيقية لشركتنا ، مما يسهم في تعزيز قدرتنا على المنافسة والابتكار.
+                    من خلال تقديم حلول
+                    تقنية متطورة، نسعى لتبسيط العمليات وتحسين الكفاءة، مما يساعدك على الوصول إلى النتائج المرجوة بسهولة.
+                    نحن نؤمن بأن
+                    المستقبل الرقمي هو فرصة لبناء روابط قوية مع عملائنا وتحقيق النمو المستدام
+                </p>
+            </div>
+            <div class="box">
+                <div class="img-con">
+                    <img src="imgs/message.png" alt="">
+                </div>
+                <h3>رسالتنا</h3>
+                <p>
+                    نركز على الالتزام بتقديم أفضل الخدمات البرمجية التي تلبي احتياجات عملائنا وتجاوز توقعاتهم و نؤمن بأن
+                    النجاح الحقيقي
+                    يتحقق من خلال فهم دقيق لمتطلباتهم ، مما يمكننا من تطوير حلول مخصصة تساهم في تحقيق أهدافنا بفعالية و
+                    نضع الجودة والابتكار
+                    في مقدمة أولوياتنا، ونسعى باستمرار لتحسين اعمالنا من خلال الاستماع إلى الملاحظات والتكيف مع التغيرات
+                    في السوق. وهدفنا هو
+                    بناء علاقات طويلة الأمد من خلال تقديم دعم مستمر وحلول فعالة تساهم في النجاح
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="img-con">
+                    <img src="imgs/expertise.png" alt="">
+                </div>
+                <h3>خبرتنـــا</h3>
+                <p>
+                    تمتد لسنوات عديدة في تقديم حلول تقنية مبتكرة وفعالة، مما يجعلنا روادًا في مجالنا. لقد عملنا مع
+                    مجموعة متنوعة من
+                    القطاعات، مما أتاح لنا فهما عميقًا لاحتياجات العملاء وتحديات السوق. فريقنا المتخصص يجمع بين المعرفة
+                    الفنية والخبرة
+                    العملية، مما يمكننا من تطوير استراتيجيات وحلول مخصصة تتناسب مع متطلبات كل عميل. نحن نستخدم أحدث
+                    التقنيات وأفضل الممارسات
+                    لضمان تقديم حلول مستدامة تعزز من كفاءة الأداء وتساهم في تحقيق النجاح. ثقتكم في خبرتنا تعني أننا هنا
+                    لدعمكم في كل خطوة
+                    نحو تحقيق
+                    أهدافكم.
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="img-con">
+                    <img src="imgs/values.png" alt="">
+                </div>
+                <h3>قيمنــا</h3>
+                <p>
+                    تتمحور حول النزاهة والإتقان، حيث نعتبرهما الأساس الذي يبني علاقات قوية مع عملائنا. نحن نعمل
+                    بالشفافية والوضوح ، ملتزمين
+                    بتقديم خدمات عالية الجودة في جميع مشاريعنا من خلال الحرص على تنفيذ كل مرحلة بإتقان، نسعى لتحقيق
+                    نتائج متميزة تعكس
+                    احترافنا وتفانينا في العمل.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+    <section class="projects">
+        <h2 class="section-title">سابقة أعمالنـــا</h2>
+        <!-- projects  -->
+        <div class="project-section">
+            <div class="project-header">
+                <div class="project-text">
+                    <h3 class="project-title">
+                        الأسطورة جيم
+                    </h3>
+                    <p class="project-description">
+                        التطبيق سيكون عباره عن مجموعة متنوعة من الخدمات والميزات التي تعزز تجربة اللاعبين وتوفر خيارات
+                        متعددة للترفيه ويمكن
+                        للاعبين التفاعل مع بعضهم البعض والقيام بمجموعة من الأنشطة داخل اللعبة.
+                    </p>
+                    <div class="project-data">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                أوضاع اللعب المتنوعة: أوضاع اللعب الفردية و أوضاع متعددة اللاعبين Multiplayer
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                وضع الباتل رويال
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                التخصيص: توفير تخصيص الأسلحة و تخصيص للشخصيات
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                التفاعل الاجتماعي : توفير الدردشة والتواصل و اللعب الجماعي
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                التحديات والمكافآت توفير تحديات ومهام يومية و نظام المكافآت
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                الفعاليات والأحداث الخاصة : توفير أحداث داخل اللعبة و بطولات
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                نظام progression توفير نظام التصنيف (Ranking) و نظام الترقيات
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                التحديثات والصيانة توفير تحديثات منتظمة و الدعم
+                                الفني
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                التجارة داخل اللعبة : سيتوفر متجر داخل اللعبة لشراء عناصر تجميلية أو محتوى إضافي
+                            </p>
+                        </div>
+
+                        <div class="btns">
+                            <a href="#" class="download-btn"> <i class="fa-brands fa-google-play"></i> حمل التطبيق</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="imgs/serv.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <div class="project-header">
+                <div class="project-text">
+                    <h3 class="project-title">
+                        الأسطورة ستور
+                    </h3>
+                    <p class="project-description">
+                        المشروع عباره عن تصميم تطبيق متجر الكتروني كمنصة للتسوق عبر الانترنت تتيح للمستخدمين استعراض
+                        وشراء منتجات متنوعة ، و
+                        يتميز بواجهة مستخدم سهلة و بسيطة خيارات تصفية متقدمة ، وعروض حصرية.
+                    </p>
+                    <div class="project-data">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                واجهة مستخدم بسيطة وسهلة الاستخدام: توفير تصميم بديهي يمكن المستخدمين من تصفح المنتجات
+                                بسهولة والوصول إلى ما يحتاجونه
+                                بسرعة.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                بحث متقدم توفير محرك بحث ذكي يتيح للمستخدمين البحث عن المنتجات بسهولة باستخدام الكلمات
+                                المفتاحية أو تصفية النتائج حسب
+                                السعر التقييمات، والمزيد يمكنك تتبع حالة الشحنات والطلبات مباشرة من التطبيق.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تتبع الطلبات : يمكنك تتبع حالة الشحنات والطلبات مباشرة من التطبيق.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                إشعارات مخصصة يرسل إشعارات للمستخدمين حول تخفيضات جديدة أو حالة الطلبات
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تقييمات ومراجعات يحتوي على قسم لتقييمات ومراجعات المنتجات مما يساعد في اتخاذ قرارات شراء
+                                مدروسة.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تجربة تسوق آمنة:
+                                يضمن التطبيق حماية المشتري وسياسة استرداد الأموال، مما يوفر راحة البال عند التسوق.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                معلومات شاملة عن المنتجات: امكانيه تقديم تفاصيل كاملة عن كل منتج.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                توافق مع أنظمة التشغيل المختلفة:
+                                سيتوفر التطبيق على جميع أنظمة iOS و Android، مما يتيح استخدامه على مجموعة واسعة من
+                                الأجهزة.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تسوق مريح وسريع
+                                إمكانية شراء المنتجات من المنزل أو أي مكان آخر، مع خيارات تسوق سهلة وسريعة.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                طرق دفع متعددة:
+                                توفير دعم لخيارات دفع متنوعة تشمل البطاقات الائتمانية ، وخدمات الدفع الإلكتروني مثل :
+                                الدفع من خلال PayPal ، master card
+                                ، فوری ، فودافون كاش ... الخ
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                طرق دفع متعددة:
+                                توفير دعم لخيارات دفع متنوعة تشمل البطاقات الائتمانية ، وخدمات الدفع الإلكتروني مثل :
+                                الدفع من خلال PayPal ، master card
+                                ، فوری ، فودافون كاش ... الخ
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                عروض وخصومات حصرية
+                                إمكانية الحصول على عروض وتخفيضات خاصة عبر التطبيق على مجموعة من المنتجات ، والمبيعات
+                                الموسمية بشكل
+                                بارز.
+                            </p>
+                        </div>
+
+                        <div class="btns">
+                            <a href="#" class="download-btn"> <i class="fa-brands fa-google-play"></i> حمل التطبيق</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="imgs/serv.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="project-section">
+            <div class="project-header">
+                <div class="project-text">
+                    <h3 class="project-title">
+                        منصة الأسطورة
+                    </h3>
+                    <p class="project-description">
+                        عبارة عن تصميم تطبيق لتعلم اللغات عبر الإنترنت يقدم مجموعة من الخدمات التعليمية للمستخدمين الذين
+                        يرغبون في تعلم لغات
+                        جديدة بطريقة مريحة وتفاعلية. سوف يوفر التطبيق أكثر من لغة للاختيار من بينها، ويعتمد على مزيج من
+                        التكنولوجيا والمجتمع
+                        لتقديم تجربة تعليمية شاملة.
+                    </p>
+                    <div class="project-data">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                دروس فردية عبر الإنترنت:
+                                يتيح التطبيق للطلاب حجز دروس خصوصية مباشرة مع معلمين محترفين من جميع أنحاء العالم ويتم
+                                تقديم الدروس بشكل
+                                فردي، مما يسمح للطلاب بالحصول على اهتمام شخصي وتعليم مخصص بناءً على احتياجاتهم.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                دعم متعدد اللغات وتعلم أكثر من لغة:
+                                يوفر التطبيق دروسا في أكثر لغة بما فى ذلك مثل: العربية، الإنجليزية ، الفرنسية ، الصينية،
+                                يقدم التطبيق دعمًا باللغة الأم
+                                للطلاب، مما يجعل التفاعل واستخدام المنصة أكثر سهولة للمستخدمين من مختلف الخلفيات
+                                اللغوية.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                اختيار المعلمين
+                                يتيح التطبيق للطلاب اختيار المعلمين بناءً على معايير مختلفة مثل اللغة الخبرة، تقييمات
+                                الطلاب السابقة، وتكلفة الحصة،
+                                و
+                                يمكن للطلاب أيضًا مشاهدة مقاطع فيديو تقديمية للمعلمين لمعرفة أسلوبهم في التدريس.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تخطيط مرن للجلسات
+                                يمكن للطلاب حجز الدروس في أوقات تناسب جداولهم اليومية، مما يوفر مرونة كبيرة في التخطيط
+                                لعملية التعلم.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تجربة الدرس الأول المخفضة:
+                                يقدم التطبيق للطلاب الجدد فرصة لحجز درس تجريبي بسعر مخفض لتجربة المعلم والتأكد من توافق
+                                أسلوب التدريس مع توقعاتهم
+                                قبل
+                                الالتزام بحصص إضافية.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تخصيص المنهج التعليمي
+                                امكانية السماح للطلاب من خلال التطبيق بالتعاون مع المعلمين لوضع خطط دراسية مخصصة بناء
+                                على أهدافهم التعليمية ومستوى
+                                معرفتهم الحالي.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                دروس تحضيرية للاختبارات
+                                سوف يوفر التطبيق دروسًا مخصصة للتحضير للاختبارات الدولية مثل IELTS و TOEFL ، بالإضافة
+                                إلى امتحانات
+                                أكاديمية أخرى.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تقييم الأداء:
+                                يمكن للطلاب متابعة تقدمهم من خلال تقييمات دورية يقدمها المعلمون مما يساعدهم على التركيز
+                                على النقاط التي تحتاج إلى
+                                تحسين.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                دروس القواعد والمفردات:
+                                امكانية تقديم دروس خاصة بالقواعد اللغوية وتوسيع المفردات لكل لغة مع مزيج من الأمثلة
+                                التوضيحية والتمارين
+                                التفاعلية.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                تطبيق سهل الاستخدام
+                                يمتاز التطبيق بواجهة مستخدم بسيطة وسهلة الاستخدام على كل من أجهزة الكمبيوتر والهواتف
+                                الذكية، مما يسهل عملية الحجز
+                                والدروس و يساعد على تحفيز الممستخدمين على زيادة فعالية عملية التعلم.
+                                <br>
+                                تقديم الوصول الكامل للمنصة باستخدام اسم المستخدم وكلمة المرور: يمكن لكل مدرس الوصول إلى
+                                جزءه الخاص في المنصة باستخدام
+                                اسم المستخدم وكلمة المرور، ويتم تحديد الصلاحيات بشكل متفاوت حسب دور كل مستخدم.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <p>
+                                شهادات معتمدة:
+                                عند إكمال مستويات معينة، يمكن للمستخدمين الحصول على شهادات معتمدة مما يضيف قيمة تعليمية
+                                إضافية.
+                            </p>
+                        </div>
+
+                        <div class="btns">
+                            <a href="#" class="download-btn"> <i class="fa-brands fa-google-play"></i> حمل التطبيق</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="imgs/serv.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact-us">
+        <h2>تواصل معنا</h2>
+        <p class="contact-description">
+            احنا دايمًا هنا لخدمتك، تقدر تتواصل معانا بطرق كتيرة
+        </p>
+        <div class="contact-son flex">
+            <div class="contact-text">
+                <p>
+                    نحن هنا للإجابة على أي استفسارات قد تكون لديك. إذا كنت ترغب في معرفة المزيد عن خدماتنا
+                    أو لديك أسئلة معينة، لا تتردد في
+                    التواصل معنا. فريقنا المتفاني سيعود إليك في أقرب وقت ممكن.
+                </p>
+                <h3>
+                    البريد الإلكتروني:
+                </h3>
+                <p>
+                    info@yourcompany.com
+                </p>
+                <h3>
+                    ارقامنا :
+                </h3>
+                <a href="tel:+201234567890" class="tel">01234567890</a>
+                <h3>
+                    تابعنا :
+                </h3>
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="form-con">
+                <form action="">
+                    <input type="text" placeholder="الاسم">
+                    <input type="text" placeholder="الهاتف">
+                    <input type="email" placeholder="الايميل">
+                    <textarea name="" id="" placeholder="اكتب رسالتك"></textarea>
+                    <button>ارسال</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+
+    <footer>
+        powerd by <a href="https://mrslia.com/">mrslia</a>
+    </footer>
+
+
+    <!-- java script -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
